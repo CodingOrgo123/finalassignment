@@ -1,0 +1,53 @@
+
+.navbar {
+    background-color: #fff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);/* Set background color */
+  }
+  
+  .navbar-brand img {
+    max-height: 40px;
+    padding: 0px; /* Limit logo height */
+  }
+  
+  .navbar-toggler {
+    border: none; /* Remove border from toggler button */
+  }
+  
+  .navbar-nav {
+    margin-left: auto; /* Align menu items to the right */
+  }
+  
+  .navbar-nav .nav-item {
+    margin-right: 15px;
+     /* Add spacing between menu items */
+     font-weight: bolder;
+  }
+ 
+  .nav-link:hover{
+    margin-right: 15px;
+    border-bottom:3px solid #d8153f;
+    border-radius: 5px;
+    background-color: #fad1da;
+  }
+  
+  /* Responsive styles */
+  
+  @media (max-width: 991px) {
+    .navbar-nav {
+      margin-left: 0; /* Reset margin for smaller screens */
+    }
+  
+    .navbar-toggler-icon {
+      color: #000; /* Change toggler icon color */
+    }
+  
+    .navbar-collapse {
+      background-color: #fff; /* Set background color for collapsed menu */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow to collapsed menu */
+    }
+  
+    .navbar-nav .nav-item {
+      margin-right: 0; /* Reset margin for smaller screens */
+      margin-bottom: 10px; /* Add spacing between menu items */
+    }
+  }

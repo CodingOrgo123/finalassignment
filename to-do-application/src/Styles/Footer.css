@@ -1,0 +1,55 @@
+/* Footer.css */
+
+.footer {
+    /* Light background color */
+    padding: 50px 0;
+    margin-top: 70px;
+  }
+  
+  .footer_logo h2 {
+    color: #333; /* Dark text color for logo */
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    color: #777; /* Lighter text color for descriptions */
+  }
+  
+  .small_text {
+    font-size: 14px;
+  }
+  
+  .quick_link-title {
+    color: #333; /* Dark text color for quick link titles */
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .quick-link-item {
+    margin-bottom: 5px;
+    list-style: none;
+  }
+  
+  .quick-link-items {
+    color: #555;
+    list-style: none; /* Medium text color for quick links */
+  }
+  
+  .contact-info-title {
+    color: #333; /* Dark text color for contact info title */
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media (max-width: 768px) {
+    .footer_logo h2 {
+      font-size: 24px; /* Decrease font size for smaller screens */
+    }
+  
+    .description,
+    .small_text {
+      font-size: 12px; /* Decrease font size for smaller screens */
+    }
+  }
+  

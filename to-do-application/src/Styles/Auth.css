@@ -1,0 +1,128 @@
+body {
+    background-color: #c2c6c9;
+  }
+  
+ 
+  .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(134, 6, 49, 0.3);
+  }
+  
+  .card-body {
+    padding: 4px;
+  }
+  
+  
+  
+  .form-label {
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .form-control{
+    border-radius: 5px;
+   
+   
+    
+  }
+  
+  
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 14px;
+    
+  }
+  
+  .card-footer {
+    border-top: none;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  
+  .card-footer p {
+    margin-bottom: 0;
+    color: #6c757d;
+    font-size: 14px;
+  }
+  
+  .card-footer a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  
+  
+  .sliding-auth-container {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    height: 40vh;
+  }
+  
+  .sliding-auth-form {
+    width: 100%;
+    max-width: 200px;
+    text-align: left;
+  }
+  
+  
+  
+  .sliding-auth-form .form-check-label {
+    color: #131516;
+    
+  }
+  
+  .sliding-auth-form .form-check-input:checked + .form-check-label {
+    color: #007bff;
+  }
+  
+  .sliding-auth-form .btn-primary {
+    width: 100%;
+    
+  }
+  
+  .sliding-auth-form .btn-secondary {
+    width: 100%;
+    padding: 10px;
+    background-color: #6c757d;
+    border-color: #101111;
+  }
+  
+  .sliding-auth-form .btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+  }
+  
+  .sliding-auth-form .btn-secondary:focus {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    box-shadow: none;
+  }
+  
+  .sliding-auth-form .alert {
+    margin-bottom: 20px;
+  }
+  
+  body{
+    background-color: rgb(241, 234, 234);
+  }
+  
+  
+  
+  #left-headss{
+    text-align: center;
+    font-family: "Acme", sans-serif;
+    font-weight:bolder;
+    font-style: normal;
+    font-size: 47px;
+    color:rgb(156, 9, 58);
+   
+
+  }
+  

@@ -1,0 +1,44 @@
+/* Task1.css */
+
+.task-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .task-left-content {
+    text-align: center;
+  }
+  
+  #explore {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color:rgb(201, 51, 88);
+  }
+  
+  #home-para {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  

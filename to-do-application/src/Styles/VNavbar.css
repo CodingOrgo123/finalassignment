@@ -1,0 +1,35 @@
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #f8f9fa;
+    padding-top: 20px;
+  }
+  
+  .logo img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .nav-link {
+    padding: 10px 15px;
+    color: #343a40;
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    background-color: #e9ecef;
+  }
+  
+  .nav-item {
+    margin-bottom: 10px;
+  }
+  
+  .nav.flex-column {
+    margin-left: 20px;
+  }
+  

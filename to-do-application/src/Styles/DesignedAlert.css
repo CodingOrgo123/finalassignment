@@ -1,0 +1,50 @@
+.designed-alert {
+    position: fixed;
+    top: 0px; /* Adjust as needed to center vertically */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px; /* Width of the alert box */
+    padding: 15px;
+    background-color: #f2f2f7; /* Dark blue background color */
+    font-weight: bolder;
+   
+    z-index: 1000; /* Ensures the alert is on top of other content */
+    font-size: 20px;
+    display:flex;
+    
+    justify-content: space-between;
+    box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.1); /* Optional: Adds a shadow for depth */
+  }
+  
+  .alert-content {
+    word-wrap: break-word; /* Allows long messages to wrap to the next line */
+  }
+  .dark-blue-text {
+    color: darkblue;
+  }
+  
+  
+  .close {
+    cursor: pointer;
+    color: inherit;
+  }
+  
+  .bottom-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #c7273c; /* White line color */
+    animation: moveLine 6s linear forwards; /* Line animation */
+  }
+  
+  @keyframes moveLine {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  

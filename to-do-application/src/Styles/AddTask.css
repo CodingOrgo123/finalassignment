@@ -1,0 +1,85 @@
+/* TaskForm.css */
+
+.task-form {
+    max-width: 650px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(119, 2, 37, 0.1);
+  }
+  
+  
+  .task-form input[type="text"],
+  .task-form textarea {
+    margin-bottom: 10px;
+  }
+  
+  .task-form textarea {
+    resize: vertical; /* Allow vertical resizing of textarea */
+  }
+  #savebtn{
+    margin:6px;
+  }
+  #deletebtn{
+    margin:6px;
+    background-color: rgb(170, 16, 42);
+  }
+  #editbtn{
+    margin:6px;
+  }
+  /* AddTask.css */
+
+/* Hide the default checkbox */
+input[type="checkbox"].tickmark {
+  display: none;
+}
+
+/* Create a custom checkbox */
+.checkbox-container {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.checkbox-checkmark {
+  display: block;
+  width: 25px;
+  height: 25px;
+  border: 2px solid #555555;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Style the tick mark */
+.checkbox-checkmark::after {
+  content: "\\2713"; /* Unicode for tick mark */
+  font-size: 20px;
+  color: transparent; /* Hide tick initially */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Show the tick mark when checkbox is checked */
+input[type="checkbox"].tickmark:checked + .checkbox-checkmark::after {
+  color: white; /* Display tick mark color */
+}
+#username{
+  
+  text-align: center;
+  font-family: "Acme", sans-serif;
+  font-weight:bolder;
+  font-style: normal;
+  font-size: 47px;
+  color:rgb(177, 26, 71);
+  padding-top: 20px;
+
+
+}
+
