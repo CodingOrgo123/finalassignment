@@ -35,6 +35,6 @@ Open your browser and go to http://localhost:3000
 <br />
 <h1>Project live link</h1>
 
-<a href="https://662a9de6c1093d230e4de4ed--stalwart-pixie-8d32b7.netlify.app/
+<a href="https://662b9df6781b27c34cfd41ff--stellular-zuccutto-c7f621.netlify.app/
 ">https://662a9de6c1093d230e4de4ed--stalwart-pixie-8d32b7.netlify.app/</a>
 
